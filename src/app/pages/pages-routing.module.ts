@@ -50,9 +50,7 @@ const routes: Routes = [
   {
     path: 'pages', loadChildren: () => import('./extrapages/extrapages.module').then(m => m.ExtrapagesModule)
   },
-  {
-    path: 'model', loadChildren: () => import('./model/model.module').then(m => m.ModelModule)
-  },
+
 ];
 
 @NgModule({
